@@ -6,7 +6,6 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.sql import func
 from datetime import datetime
 from sqlalchemy import create_engine, text
-# f
 app = Flask(__name__)
 
 # Cs50
