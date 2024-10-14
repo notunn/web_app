@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}Login{% endblock %}
+{% block main %}
+
+<div class="container mb-3">
+    <h1>Login</h1>
+    <div class="b-example-divider"></div>
+</div>
+<div class="container">
+    <form action="/login" method="POST">
+        <div class="mb-3">
+            <input autofocus autocomplete="off" type="text" class="form-control mb-3" name="name" aria-describedby="name" placeholder="Enter name">
+            <input autocomplete="off" type="password" class="form-control mb-3" name="password" aria-describedby="password" placeholder="Enter password">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+{% endblock %}
